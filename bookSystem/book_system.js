@@ -29,7 +29,7 @@ function showbooks() {
         <p><strong>Book Description:</strong> ${book.bookDescription}</p>
         <p><strong>No. of Pages:</strong> ${book.pagesNumber} page(s)</p>
         <button onclick="editbook(${index})">Edit</button>
-        <button onclick="deleteBook(${index})">Delete</button>)`
+        <button onclick="deleteBook(${index})">Delete</button>`
     );
     document.getElementById('books').innerHTML = booksDiv.join('');
 }
